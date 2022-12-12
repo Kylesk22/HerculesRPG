@@ -1,3 +1,152 @@
-body {
-    background-color: blue;
+
+.game-container {
+    display: flex;
+    position: relative;
+    width: 550px;
+    height: 390px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+   
+}
+.enemyInfo {
+    width: 240px;
+    height: 80px;
+   
+    margin: 10px;
+    
+}
+.attackOptions {
+    width: 200px;
+    height: 100px;
+  
+    margin: 200px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    border: solid 6px black;
+    width: 550px;
+    height: 390px;
+}
+button {
+    border: black 1px solid;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 60px;
+
+
+}
+.hercImg {
+    
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 65px;
+    width: 120px;
+    height: 200px;
+    z-index: 1;
+}
+
+#NemeanLionImage {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 10px;
+    transform: rotate(-10deg)
+}
+#LightningImage {
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 5px;
+}
+#FistImage {
+    position: absolute;
+    width: 222.5px;
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 130px;
+    z-index: 1;
+}
+#SwordSlash {
+    position: absolute;
+    width: 292.5px;
+    height: 180px;
+    margin-left: 200px;
+    transform: rotate(-45deg);
+}
+#SwordSlash2 {
+    position: absolute;
+    width: 292.5px;
+    height: 180px;
+    margin-left: 200px;
+    transform: rotate(45deg);
+}
+#ShieldImage {
+    position: absolute;
+    width: 222.5px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 130px;
+    z-index: 1;
+}
+#LionFireballImage{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -175px;
+    z-index: 1;
+}
+#LionBiteImage {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -175px;
+    z-index: 1;
+}
+#LionScratchImage {
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 55px;
+    width: 292.5px;
+    height: 180px;
+}
+#LionScratch2Image {
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 45px;
+    width: 292.5px;
+    height: 180px;
+}
+#LionGrowlImage {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 160px;
+    width: 270px;
+    transform: rotate(-45deg);
+}
+#TornadoImage {
+    position: absolute;
+    margin-left: 300px;
+    height: 200px;
+
+}
+#Tornado2Image {
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 165px;
+    z-index: 1;
+   
+
+}
+#continueBtn {
+    margin-left: 170px;
+    margin-top: 150px;
+    z-index: 1;
+
 }
